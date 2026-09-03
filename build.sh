@@ -1,3 +1,3 @@
 pip install -r config/requirements.txt
-python config/manage.py collectstatic --noinput
-python config/manage.py migrate
+python core/manage.py collectstatic --noinput
+python core/manage.py migrate
